@@ -1,0 +1,90 @@
+{
+  "bot_name": "Help Desk Bot",
+  "intents": [
+    {
+      "name": "greeting",
+      "keywords": [
+        "hi",
+        "hello",
+        "hey",
+        "salam",
+        "assalam",
+        "good morning",
+        "good evening"
+      ],
+      "answer": "Hello! Welcome to the university help desk. How can I help you today?"
+    },
+    {
+      "name": "hours",
+      "keywords": [
+        "hours",
+        "timing",
+        "timings",
+        "open",
+        "opening",
+        "close",
+        "closing",
+        "time",
+        "when"
+      ],
+      "answer": "The help desk is open Monday to Saturday, 9:00 AM to 5:00 PM. It is closed on Sunday and on public holidays."
+    },
+    {
+      "name": "admission",
+      "keywords": [
+        "admission",
+        "admissions",
+        "apply",
+        "enroll",
+        "enrol",
+        "enrollment",
+        "enrolment",
+        "register",
+        "registration"
+      ],
+      "answer": "For admission, visit the Admissions Office or check the university website for the current application process and deadlines."
+    },
+    {
+      "name": "fees",
+      "keywords": [
+        "fee",
+        "fees",
+        "tuition",
+        "payment",
+        "pay",
+        "challan",
+        "cost"
+      ],
+      "answer": "Fee details depend on your program. Please check the Fee section on the university website, or ask at the Accounts Office."
+    },
+    {
+      "name": "library",
+      "keywords": [
+        "library",
+        "book",
+        "books",
+        "reading",
+        "library card"
+      ],
+      "answer": "The library is open during working hours. Bring your student ID card to borrow books."
+    },
+    {
+      "name": "contact",
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "number",
+        "call",
+        "reach"
+      ],
+      "answer": "You can reach the help desk by phone or email. Check the Contact page on the university website for the latest numbers."
+    }
+  ],
+  "fallback": "Sorry, I did not understand that. Try words like: hours, admission, fees, library or contact.",
+  "exit_words": [
+    "bye",
+    "exit",
+    "quit"
+  ]
+}
